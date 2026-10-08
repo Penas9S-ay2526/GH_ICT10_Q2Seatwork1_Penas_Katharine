@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seatwork 1</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+</head>
+<body>
+     <div class="container">
+        <center>
+        <h3>THE NICKNAMES OF EUROPEAN COUNTRIES:</h3>
+        <fieldset>
+           
+          <h3>Pick a country</h3>
+          <select id="countries">
+
+              <option value="Albion" id="GB">United Kingdom</option>
+            
+              <option value="The Land of Poets and Thinkers" id="DE">Germany</option>
+            
+              <option value="The Hexagon" id="FR">France</option>
+            
+              <option value="The Land of a Thousand Lakes" id="FI">Finland</option>
+            
+              <option value="The Musical Centre of Europe" id="AT">Austria</option>
+
+              <option value="The Land of Fire and Ice" id="IS">Iceland</option>
+          </select>
+        
+      <br><br>
+      <input type="button" py-click="generate" value="Get the nickname!">
+      <br><br>
+      <div class="result" id="result"><br><br>
+      </fieldset>
+        </center>
+    </div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
